@@ -1,4 +1,4 @@
-package com.zdx.dao;
+package com.mi.dao;
 
 import org.junit.Test;
 import org.springframework.stereotype.Component;

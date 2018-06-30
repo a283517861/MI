@@ -4,7 +4,7 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>com.zdx</groupId>
+  <groupId>com.mi</groupId>
   <artifactId>mi</artifactId>
   <version>1.0-SNAPSHOT</version>
   <packaging>jar</packaging>
@@ -12,6 +12,9 @@
   <name>mi Maven Webapp</name>
   <!-- FIXME change it to the project's website -->
   <url>http://www.example.com</url>
+
+
+
 
 
   <parent>
@@ -26,8 +29,8 @@
     <!-- 默认使用Thymeleaf 2.0.0.RELEASE,这里需要使用Thymeleaf 3版本-->
     <!-- 低版本的 Thymeleaf 不能解析 HTML5 格式的 HTML 代码，而是把 HTML 当成 XML 解析 -->
     <thymeleaf.version>3.0.9.RELEASE</thymeleaf.version>
-    <maven.compiler.source>1.7</maven.compiler.source>
-    <maven.compiler.target>1.7</maven.compiler.target>
+    <maven.compiler.source>1.8</maven.compiler.source>
+    <maven.compiler.target>1.8</maven.compiler.target>
   </properties>
 
   <dependencies>
@@ -55,7 +58,7 @@
       <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-devtools</artifactId>
       <optional>true</optional>
-      <scope>true</scope>
+      <scope>compile</scope>
     </dependency>
     <!--thymeleaf模板引擎-->
     <dependency>
@@ -85,6 +88,10 @@
     <dependency>
       <groupId>com.fasterxml.jackson.core</groupId>
       <artifactId>jackson-databind</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>com.fasterxml.jackson.core</groupId>
+      <artifactId>jackson-annotations</artifactId>
     </dependency>
     <dependency>
       <groupId>com.fasterxml.jackson.datatype</groupId>

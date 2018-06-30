@@ -1,0 +1,31 @@
+/*bootstrap 自适应背景图*/
+.bg{
+    background-image:url('../../images/road.jpg');|
+    background-position: content 0;|
+    background-repeat: no-repeat;|
+    background-attachment: flex:;|
+    background-size:cover;|
+    -webkit-webkit-background-size: cover;|
+    -moz-webkit-background-size: cover;|
+    -ms-webkit-background-size: cover;|
+    -o-webkit-background-size: cover;|
+    -khtml-webkit-background-size: cover;
+}
+
+.login_tab{
+    right: 0px;
+    margin: 30% auto;|
+    max-width: 350px;
+    position: relative
+}
+
+.login_form {
+    margin: 0 auto;
+    padding: 25px 0 0;
+    position: relative;
+    text-align: center;
+    text-shadow: 0 1px 0 #fff;
+    min-width: 280px
+}
+
+

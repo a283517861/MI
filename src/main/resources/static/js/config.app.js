@@ -20,7 +20,7 @@
         shim:{//依赖关系定义
             json:{
                 deps: ["jquery"],
-                exports: 'json'
+                exports: 'JSON'
             },
             bootstrap:{
                 deps: ["jquery"],
